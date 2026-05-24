@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Lebohang Lehutjo · About Me</title>
 </head>
 <body>
@@ -15,15 +16,26 @@
       
   
     
+    <image src="./image.avif" alt="Lebohang Lehutjo profile photo" width="70" height="70">
     <nav>
-      <span ></span> <b>Contact Me</b></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="index.html">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-      <a href="about.html"> About Me</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="index.html">Home</a>
+      <a href="about.html"> About Me</a>
       <a href="contact.html">Contact Us</a>
     </nav>
     
   </header>
-
-      <p>📞 <strong>Phone / WhatsApp:</strong> +27 83 333 4444</p>
-      <p>📧 <em>email:</em> lebohang.lehutjo@portfolio.dev</p>
+  <div class="contact-section">
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+  </div>
 </body>
