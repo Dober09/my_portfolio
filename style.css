@@ -163,6 +163,38 @@ main{
     font-weight: bold;
 }
 
+footer{
+    width: 100%;
+    /* margin-inline: 10px; */
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    color: #555;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+footer a:hover{
+    color: #007BFF;
+    background-color: rgba(133, 141, 15, 0.1);
+    cursor: pointer;
+}
+
+footer hr{
+    margin: 20px auto;
+    width: 80%;
+    border: none;
+    border-top: 2px solid #ddd;
+}
+
+footer p{
+    margin-top: 10px;
+    font-size: 14px;
+}
 
 
-
+footer p small{
+    color: #999;
+    margin-top: 10px;
+}
