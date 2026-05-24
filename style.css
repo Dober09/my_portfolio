@@ -66,3 +66,56 @@ a:hover{
     cursor: pointer;
 }
 
+
+main{
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.banner{
+    text-align: center;
+    max-width: 600px;
+}
+
+.banner h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.banner p:first-child{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    color: #555;
+}
+
+
+.banner video{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 480px;   
+}
+
+.banner video:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.banner p:last-child{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
